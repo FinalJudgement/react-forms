@@ -1,8 +1,43 @@
+body {
+  margin: 0;
+  background-color: #030d3b;
+}
+
 #root {
+  position: relative;
+  top: 100px;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
+  background-color: #3b4882;
+  color: #dcdee7;
+  display: flex;
+  justify-content: center;
   text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.stylr {
+  padding: 50px 40px;
+  margin: 100px;
+  background-color: #141f4f;
+
+  max-width: 300px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #7681b5;
+  color: #dcdee7;
+}
+
+button:hover {
+  background-color: white;
 }
 
 .logo {
